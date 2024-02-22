@@ -14,7 +14,7 @@ const ThankYou = () => {
                         <p>Your Order Has been Placed Successfully</p>
                         <p>Support Us By Showing Your Love</p>
                         <button className="go-home"><a href="/">
-                            home page</a>
+                            Home Page</a>
                         </button>
                 </div>
             </div>
