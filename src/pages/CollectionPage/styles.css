@@ -1,0 +1,18 @@
+.card-img-top {
+  height: 170px;
+}
+
+.select-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.find_gift_btn {
+  width: -webkit-fill-available;
+
+}
+.sub-title,
+.breadcrumbs,
+.title {
+  margin: 10px;
+}

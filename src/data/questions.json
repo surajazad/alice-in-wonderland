@@ -1,0 +1,115 @@
+{
+  "questions": [
+    {
+      "label": "My Magical Gift is For...",
+      "options": [
+        {
+          "label": "HIM",
+          "value": "him",
+          "selected": false,
+          "imgSrc": ""
+        },
+        {
+          "label": "HER",
+          "value": "her",
+          "selected": false,
+          "imgSrc": ""
+        },
+        {
+          "label": "ME",
+          "value": "me",
+          "selected": false,
+          "imgSrc": ""
+        }
+      ]
+    },
+    {
+      "label": "They Are...",
+      "options": [
+        {
+          "label": "AMAZING OTHER HALF",
+          "value": "spouse",
+          "selected": false,
+          "imgSrc": ""
+        },
+        {
+          "label": "LOVELY PARENTS",
+          "value": "parent",
+          "selected": false,
+          "imgSrc": ""
+        },
+        {
+          "label": "AWESOME SIBLING",
+          "value": "sister",
+          "selected": false,
+          "imgSrc": ""
+        },
+        {
+          "label": "SOMEONE SPECIAL",
+          "value": "crush",
+          "selected": false,
+          "imgSrc": ""
+        },
+        {
+          "label": "BEAUTY WITH BRAINS",
+          "value": "friend",
+          "selected": false,
+          "imgSrc": ""
+        }
+      ]
+    },
+    {
+      "label": "I'M SURE THEY ARE A...",
+      "options": [
+        {
+          "label": "FRAGRANCE LOVER",
+          "value": "beauty",
+          "selected": false,
+          "imgSrc": ""
+        },
+        {
+          "label": "BODY CARE LOVER",
+          "value": "lotion",
+          "selected": false,
+          "imgSrc": ""
+        },
+        {
+          "label": "LINGERIE LOVER",
+          "value": "lingerie",
+          "selected": false,
+          "imgSrc": ""
+        },
+        {
+          "label": "SWIMMER",
+          "value": "swimwear",
+          "selected": false,
+          "imgSrc": ""
+        }
+      ]
+    },
+    {
+      "label": "I WANT TO SPEND...",
+      "type": "slider",
+      "options": [
+        {
+          "label": "$10",
+          "value": "10",
+          "selected": false,
+          "imgSrc": ""
+        },
+        {
+          "label": "$50",
+          "value": "50",
+          "selected": false,
+          "imgSrc": ""
+        },
+        {
+          "label": "$100",
+          "value": "100",
+          "selected": false,
+          "imgSrc": ""
+        }
+      ]
+    }
+  ]
+}

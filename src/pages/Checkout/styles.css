@@ -1,0 +1,157 @@
+.checkout {
+    .image-thumbnail {
+        height: 50px;
+        width: 50px;
+    }
+
+    .cart-items {
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+    }
+
+    .single-cart-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-bottom: 10px;
+    }
+
+    .estimated-total {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sub-margin {
+        margin: 10px;
+    }
+
+    .text-align {
+        text-align: center;
+    }
+
+    .payment-group {
+        font-size: 20px;
+        button {
+            width: 100%;
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        .pink {
+            background-color: #f7d4db;
+            border-style: none;
+        }
+
+        .black {
+            color: white;
+            background-color: black;
+            margin-bottom: 10px;
+            border-style: none;
+        }
+
+        .white {
+            color: black;
+            background-color: white;
+        }
+    }
+
+    .payment {
+    display: flex;
+    flex-direction: column;
+    }
+    .hidden {
+        
+    }
+    .pay-now {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .bottom-sheet-wrapper {
+        .backdrop {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.6);
+          transition: all 0.2s ease-in-out;
+          opacity: 0;
+          pointer-events: none;
+        }
+      
+        .bottom-sheet {
+          background: #fff;
+          width: 97%;
+          min-height: 200px;
+          position: absolute;
+          z-index: 2;
+          border-radius: 15px;
+          transition: all 0.2s ease-in-out;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: -110%;
+        }
+      
+        &.show-modal {
+          .backdrop {
+            opacity: 1;
+            pointer-events: all;
+          }
+      
+          .bottom-sheet {
+            bottom: 5px;
+          }
+        }
+      }
+    
+      .close {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        float: right;
+        margin: 10px;
+        cursor: pointer;
+      
+        span {
+          display: block;
+          width: 100%;
+          height: 2px;
+          border-radius: 2px;
+          background: red;
+          transform: rotate(45deg);
+      
+          &::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            border-radius: 2px;
+            background: red;
+            transform: rotate(90deg);
+          }
+        }
+      }
+
+      .payment-methods {
+        display: flex;
+         flex-direction: column; 
+        text-align: center;
+
+        .credit-card {
+            background-color: pink;
+            border-radius: 10px;
+        }
+        .paypal {
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+        }
+        .venmo {
+            background-color: white;
+            color : black;
+            border-radius: 10px;
+        }
+      }
+}

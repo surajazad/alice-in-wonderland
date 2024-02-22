@@ -1,0 +1,60 @@
+{
+  "productCategory": [
+    {
+      "label": "BRA",
+      "value": "bras",
+      "imgSrc": "https://i.ibb.co/Ln0MRy9/Screenshot-2024-01-18-at-4-10-25-PM.png",
+      "isSelected": false,
+      "key": "bras"
+    },
+    {
+      "label": "SWIM",
+      "value": "swim",
+      "imgSrc": "https://i.ibb.co/zJFr0Qh/Screenshot-2024-01-18-at-4-14-46-PM.png",
+      "isSelected": false,
+      "key": "swim"
+    },
+    {
+      "label": "BEAUTY",
+      "value": "beauty",
+      "imgSrc": "https://i.ibb.co/qxVZd4R/Screenshot-2024-01-18-at-4-12-51-PM.png",
+      "isSelected": false,
+      "key": "beauty"
+    },
+    {
+      "label": "ACCESSORY",
+      "value": "accessory",
+      "imgSrc": "https://i.ibb.co/dKR8jPQ/Screenshot-2024-01-18-at-4-14-22-PM.png",
+      "isSelected": false,
+      "key": "accessory"
+    },
+    {
+      "label": "LINGERIE",
+      "value": "lingerie",
+      "imgSrc": "https://i.ibb.co/XL2K89V/Screenshot-2024-01-18-at-4-12-06-PM.png",
+      "isSelected": false,
+      "key": "lingerie"
+    },
+    {
+      "label": "PANTIES",
+      "value": "panties",
+      "imgSrc": "https://i.ibb.co/VQPtR82/Screenshot-2024-01-18-at-4-09-44-PM.png",
+      "isSelected": false,
+      "key": "panties"
+    },
+    {
+      "label": "SPORTS",
+      "value": "sports",
+      "imgSrc": "https://i.ibb.co/zJFr0Qh/Screenshot-2024-01-18-at-4-14-46-PM.png",
+      "isSelected": false,
+      "key": "sports"
+    },
+    {
+      "label": "SLEEP",
+      "value": "sleep",
+      "imgSrc": "https://i.ibb.co/CQJRKBD/Screenshot-2024-01-18-at-4-10-59-PM.png",
+      "isSelected": false,
+      "key": "sleep"
+    }
+  ]
+}

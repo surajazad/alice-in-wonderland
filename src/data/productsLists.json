@@ -1,0 +1,954 @@
+{
+    "bra": [
+        {
+            "key": "01",
+            "label": "Bra",
+            "imgSrc": "images/productList/bra1.avif",
+            "isSelected": false,
+            "price": 100,
+            "priceLabel": "$100",
+            "priceRange": "100&Above"
+        },
+        {
+            "key": "02",
+            "label": "Bra",
+            "imgSrc": "images/productList/bra2.avif",
+            "isSelected": false,
+            "price": 15,
+            "priceLabel": "$15",
+            "priceRange": "10-50"
+        },
+        {
+            "key": "03",
+            "label": "Red Velvet",
+            "imgSrc": "images/productList/bra3.avif",
+            "isSelected": false,
+            "price": 90,
+            "priceLabel": "$90",
+            "priceRange": "10-50"
+        },
+        {
+            "key": "04",
+            "label": "Mini Mist",
+            "imgSrc": "images/productList/bra3.avif",
+            "isSelected": false,
+            "price": 50,
+            "priceLabel": "$50",
+            "priceRange": "10-50"
+        },
+        {
+            "key": "05",
+            "label": "Bombshell",
+            "imgSrc": "images/productList/bra3.avif",
+            "isSelected": false,
+            "price": 95,
+            "priceLabel": "$95",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "06",
+            "label": "Tease",
+            "imgSrc": "images/productList/bra3.avif",
+            "isSelected": false,
+            "price": 45,
+            "priceLabel": "$45",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "07",
+            "label": "BabyDoll",
+            "imgSrc": "images/productList/bra3.avif",
+            "isSelected": false,
+            "price": 150,
+            "priceLabel": "$150",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "08",
+            "label": "Fleece",
+            "imgSrc": "images/gift-catalog/warm_n_cozy_fleece_frag.jpeg",
+            "isSelected": false,
+            "price": 55,
+            "priceLabel": "$55",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "09",
+            "label": "Sleep",
+            "imgSrc": "images/gift-catalog/sleep_wear.avif",
+            "isSelected": false,
+            "price": 75,
+            "priceLabel": "$75",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "10",
+            "label": "VS&Co",
+            "imgSrc": "images/gift-catalog/tote_bag.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        },
+        {
+            "key": "11",
+            "label": "PINK",
+            "imgSrc": "images/gift-catalog/blue_bella.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        },
+        {
+            "key": "12",
+            "label": "AdoreMe",
+            "imgSrc": "images/gift-catalog/body_suit.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        },
+        {
+            "key": "13",
+            "label": "BlueBella",
+            "imgSrc": "images/gift-catalog/swim_suit.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        }
+    ],
+    "swim": [
+        {
+            "key": "001",
+            "label": "Swim",
+            "imgSrc": "images/gift-catalog/lingerie_gift_set.webp",
+            "isSelected": false,
+            "price": 100,
+            "priceLabel": "$100",
+            "priceRange": "100&Above"
+        },
+        {
+            "key": "002",
+            "label": "Swim",
+            "imgSrc": "images/gift-catalog/pure_seduction_duo.jpeg",
+            "isSelected": false,
+            "price": 15,
+            "priceLabel": "$15",
+            "priceRange": "10-50"
+        },
+        {
+            "key": "003",
+            "label": "Red Velvet",
+            "imgSrc": "images/gift-catalog/red_velvet.avif",
+            "isSelected": false,
+            "price": 90,
+            "priceLabel": "$90",
+            "priceRange": "10-50"
+        },
+        {
+            "key": "004",
+            "label": "Mini Mist",
+            "imgSrc": "images/gift-catalog/merry_mini_mist.jpeg",
+            "isSelected": false,
+            "price": 50,
+            "priceLabel": "$50",
+            "priceRange": "10-50"
+        },
+        {
+            "key": "005",
+            "label": "Bombshell",
+            "imgSrc": "images/gift-catalog/delux_frag_trio.jpeg",
+            "isSelected": false,
+            "price": 95,
+            "priceLabel": "$95",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "006",
+            "label": "Tease",
+            "imgSrc": "images/gift-catalog/tease-perfume.avif",
+            "isSelected": false,
+            "price": 45,
+            "priceLabel": "$45",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "007",
+            "label": "BabyDoll",
+            "imgSrc": "images/gift-catalog/babydoll.avif",
+            "isSelected": false,
+            "price": 150,
+            "priceLabel": "$150",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "008",
+            "label": "Fleece",
+            "imgSrc": "images/gift-catalog/warm_n_cozy_fleece_frag.jpeg",
+            "isSelected": false,
+            "price": 55,
+            "priceLabel": "$55",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "009",
+            "label": "Sleep",
+            "imgSrc": "images/gift-catalog/sleep_wear.avif",
+            "isSelected": false,
+            "price": 75,
+            "priceLabel": "$75",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "010",
+            "label": "VS&Co",
+            "imgSrc": "images/gift-catalog/tote_bag.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        },
+        {
+            "key": "011",
+            "label": "PINK",
+            "imgSrc": "images/gift-catalog/blue_bella.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        },
+        {
+            "key": "012",
+            "label": "AdoreMe",
+            "imgSrc": "images/gift-catalog/body_suit.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        },
+        {
+            "key": "013",
+            "label": "BlueBella",
+            "imgSrc": "images/gift-catalog/swim_suit.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        }
+    ],
+    "beauty": [
+        {
+            "key": "0001",
+            "label": "Beauty",
+            "imgSrc": "images/productList/beauty1.avif",
+            "isSelected": false,
+            "price": 100,
+            "priceLabel": "$100",
+            "priceRange": "100&Above"
+        },
+        {
+            "key": "0002",
+            "label": "Beauty",
+            "imgSrc": "images/productList/beauty2.avif",
+            "isSelected": false,
+            "price": 15,
+            "priceLabel": "$15",
+            "priceRange": "10-50"
+        },
+        {
+            "key": "0003",
+            "label": "Red Velvet",
+            "imgSrc": "images/productList/beauty3.avif",
+            "isSelected": false,
+            "price": 90,
+            "priceLabel": "$90",
+            "priceRange": "10-50"
+        },
+        {
+            "key": "0004",
+            "label": "Mini Mist",
+            "imgSrc": "images/gift-catalog/merry_mini_mist.jpeg",
+            "isSelected": false,
+            "price": 50,
+            "priceLabel": "$50",
+            "priceRange": "10-50"
+        },
+        {
+            "key": "0005",
+            "label": "Bombshell",
+            "imgSrc": "images/gift-catalog/delux_frag_trio.jpeg",
+            "isSelected": false,
+            "price": 95,
+            "priceLabel": "$95",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "0006",
+            "label": "Tease",
+            "imgSrc": "images/gift-catalog/tease-perfume.avif",
+            "isSelected": false,
+            "price": 45,
+            "priceLabel": "$45",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "0007",
+            "label": "BabyDoll",
+            "imgSrc": "images/gift-catalog/babydoll.avif",
+            "isSelected": false,
+            "price": 150,
+            "priceLabel": "$150",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "0008",
+            "label": "Fleece",
+            "imgSrc": "images/gift-catalog/warm_n_cozy_fleece_frag.jpeg",
+            "isSelected": false,
+            "price": 55,
+            "priceLabel": "$55",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "0009",
+            "label": "Sleep",
+            "imgSrc": "images/gift-catalog/sleep_wear.avif",
+            "isSelected": false,
+            "price": 75,
+            "priceLabel": "$75",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "0010",
+            "label": "VS&Co",
+            "imgSrc": "images/gift-catalog/tote_bag.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        },
+        {
+            "key": "0011",
+            "label": "PINK",
+            "imgSrc": "images/gift-catalog/blue_bella.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        },
+        {
+            "key": "0012",
+            "label": "AdoreMe",
+            "imgSrc": "images/gift-catalog/body_suit.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        },
+        {
+            "key": "0013",
+            "label": "BlueBella",
+            "imgSrc": "images/gift-catalog/swim_suit.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        }
+    ],
+    "accessory": [
+        {
+            "key": "00001",
+            "label": "Accessory",
+            "imgSrc": "images/productList/acc1.avif",
+            "isSelected": false,
+            "price": 100,
+            "priceLabel": "$100",
+            "priceRange": "100&Above"
+        },
+        {
+            "key": "00002",
+            "label": "Accessory",
+            "imgSrc": "images/productList/acc2.avif",
+            "isSelected": false,
+            "price": 15,
+            "priceLabel": "$15",
+            "priceRange": "10-50"
+        },
+        {
+            "key": "00003",
+            "label": "Red Velvet",
+            "imgSrc": "images/productList/acc3.avif",
+            "isSelected": false,
+            "price": 90,
+            "priceLabel": "$90",
+            "priceRange": "10-50"
+        },
+        {
+            "key": "00004",
+            "label": "Mini Mist",
+            "imgSrc": "images/productList/acc3.avif",
+            "isSelected": false,
+            "price": 50,
+            "priceLabel": "$50",
+            "priceRange": "10-50"
+        },
+        {
+            "key": "00005",
+            "label": "Bombshell",
+            "imgSrc": "images/productList/acc3.avif",
+            "isSelected": false,
+            "price": 95,
+            "priceLabel": "$95",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "00006",
+            "label": "Tease",
+            "imgSrc": "images/productList/acc3.avif",
+            "isSelected": false,
+            "price": 45,
+            "priceLabel": "$45",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "00007",
+            "label": "BabyDoll",
+            "imgSrc": "images/productList/acc3.avif",
+            "isSelected": false,
+            "price": 150,
+            "priceLabel": "$150",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "00008",
+            "label": "Fleece",
+            "imgSrc": "images/gift-catalog/warm_n_cozy_fleece_frag.jpeg",
+            "isSelected": false,
+            "price": 55,
+            "priceLabel": "$55",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "00009",
+            "label": "Sleep",
+            "imgSrc": "images/gift-catalog/sleep_wear.avif",
+            "isSelected": false,
+            "price": 75,
+            "priceLabel": "$75",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "00010",
+            "label": "VS&Co",
+            "imgSrc": "images/gift-catalog/tote_bag.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        },
+        {
+            "key": "00011",
+            "label": "PINK",
+            "imgSrc": "images/gift-catalog/blue_bella.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        },
+        {
+            "key": "00012",
+            "label": "AdoreMe",
+            "imgSrc": "images/gift-catalog/body_suit.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        },
+        {
+            "key": "00013",
+            "label": "BlueBella",
+            "imgSrc": "images/gift-catalog/swim_suit.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        }
+    ],
+    "lingerie": [
+        {
+            "key": "010",
+            "label": "Lingerie",
+            "imgSrc": "images/gift-catalog/lingerie_gift_set.webp",
+            "isSelected": false,
+            "price": 100,
+            "priceLabel": "$100",
+            "priceRange": "100&Above"
+        },
+        {
+            "key": "020",
+            "label": "Lingerie",
+            "imgSrc": "images/gift-catalog/pure_seduction_duo.jpeg",
+            "isSelected": false,
+            "price": 15,
+            "priceLabel": "$15",
+            "priceRange": "10-50"
+        },
+        {
+            "key": "030",
+            "label": "Red Velvet",
+            "imgSrc": "images/gift-catalog/red_velvet.avif",
+            "isSelected": false,
+            "price": 90,
+            "priceLabel": "$90",
+            "priceRange": "10-50"
+        },
+        {
+            "key": "040",
+            "label": "Mini Mist",
+            "imgSrc": "images/gift-catalog/merry_mini_mist.jpeg",
+            "isSelected": false,
+            "price": 50,
+            "priceLabel": "$50",
+            "priceRange": "10-50"
+        },
+        {
+            "key": "050",
+            "label": "Bombshell",
+            "imgSrc": "images/gift-catalog/delux_frag_trio.jpeg",
+            "isSelected": false,
+            "price": 95,
+            "priceLabel": "$95",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "060",
+            "label": "Tease",
+            "imgSrc": "images/gift-catalog/tease-perfume.avif",
+            "isSelected": false,
+            "price": 45,
+            "priceLabel": "$45",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "070",
+            "label": "BabyDoll",
+            "imgSrc": "images/gift-catalog/babydoll.avif",
+            "isSelected": false,
+            "price": 150,
+            "priceLabel": "$150",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "080",
+            "label": "Fleece",
+            "imgSrc": "images/gift-catalog/warm_n_cozy_fleece_frag.jpeg",
+            "isSelected": false,
+            "price": 55,
+            "priceLabel": "$55",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "090",
+            "label": "Sleep",
+            "imgSrc": "images/gift-catalog/sleep_wear.avif",
+            "isSelected": false,
+            "price": 75,
+            "priceLabel": "$75",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "100",
+            "label": "VS&Co",
+            "imgSrc": "images/gift-catalog/tote_bag.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        },
+        {
+            "key": "110",
+            "label": "PINK",
+            "imgSrc": "images/gift-catalog/blue_bella.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        },
+        {
+            "key": "120",
+            "label": "AdoreMe",
+            "imgSrc": "images/gift-catalog/body_suit.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        },
+        {
+            "key": "130",
+            "label": "BlueBella",
+            "imgSrc": "images/gift-catalog/swim_suit.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        }
+    ],
+    "panties": [
+        {
+            "key": "0100",
+            "label": "Panties",
+            "imgSrc": "images/gift-catalog/lingerie_gift_set.webp",
+            "isSelected": false,
+            "price": 100,
+            "priceLabel": "$100",
+            "priceRange": "100&Above"
+        },
+        {
+            "key": "0200",
+            "label": "Panties",
+            "imgSrc": "images/gift-catalog/pure_seduction_duo.jpeg",
+            "isSelected": false,
+            "price": 15,
+            "priceLabel": "$15",
+            "priceRange": "10-50"
+        },
+        {
+            "key": "0300",
+            "label": "Red Velvet",
+            "imgSrc": "images/gift-catalog/red_velvet.avif",
+            "isSelected": false,
+            "price": 90,
+            "priceLabel": "$90",
+            "priceRange": "10-50"
+        },
+        {
+            "key": "0400",
+            "label": "Mini Mist",
+            "imgSrc": "images/gift-catalog/merry_mini_mist.jpeg",
+            "isSelected": false,
+            "price": 50,
+            "priceLabel": "$50",
+            "priceRange": "10-50"
+        },
+        {
+            "key": "0500",
+            "label": "Bombshell",
+            "imgSrc": "images/gift-catalog/delux_frag_trio.jpeg",
+            "isSelected": false,
+            "price": 95,
+            "priceLabel": "$95",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "0600",
+            "label": "Tease",
+            "imgSrc": "images/gift-catalog/tease-perfume.avif",
+            "isSelected": false,
+            "price": 45,
+            "priceLabel": "$45",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "0700",
+            "label": "BabyDoll",
+            "imgSrc": "images/gift-catalog/babydoll.avif",
+            "isSelected": false,
+            "price": 150,
+            "priceLabel": "$150",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "0800",
+            "label": "Fleece",
+            "imgSrc": "images/gift-catalog/warm_n_cozy_fleece_frag.jpeg",
+            "isSelected": false,
+            "price": 55,
+            "priceLabel": "$55",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "0900",
+            "label": "Sleep",
+            "imgSrc": "images/gift-catalog/sleep_wear.avif",
+            "isSelected": false,
+            "price": 75,
+            "priceLabel": "$75",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "1000",
+            "label": "VS&Co",
+            "imgSrc": "images/gift-catalog/tote_bag.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        },
+        {
+            "key": "1100",
+            "label": "PINK",
+            "imgSrc": "images/gift-catalog/blue_bella.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        },
+        {
+            "key": "1200",
+            "label": "AdoreMe",
+            "imgSrc": "images/gift-catalog/body_suit.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        },
+        {
+            "key": "1300",
+            "label": "BlueBella",
+            "imgSrc": "images/gift-catalog/swim_suit.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        }
+    ],
+    "sports": [
+        {
+            "key": "011",
+            "label": "Sports",
+            "imgSrc": "images/gift-catalog/lingerie_gift_set.webp",
+            "isSelected": false,
+            "price": 100,
+            "priceLabel": "$100",
+            "priceRange": "100&Above"
+        },
+        {
+            "key": "021",
+            "label": "Sports",
+            "imgSrc": "images/gift-catalog/pure_seduction_duo.jpeg",
+            "isSelected": false,
+            "price": 15,
+            "priceLabel": "$15",
+            "priceRange": "10-50"
+        },
+        {
+            "key": "031",
+            "label": "Red Velvet",
+            "imgSrc": "images/gift-catalog/red_velvet.avif",
+            "isSelected": false,
+            "price": 90,
+            "priceLabel": "$90",
+            "priceRange": "10-50"
+        },
+        {
+            "key": "041",
+            "label": "Mini Mist",
+            "imgSrc": "images/gift-catalog/merry_mini_mist.jpeg",
+            "isSelected": false,
+            "price": 50,
+            "priceLabel": "$50",
+            "priceRange": "10-50"
+        },
+        {
+            "key": "051",
+            "label": "Bombshell",
+            "imgSrc": "images/gift-catalog/delux_frag_trio.jpeg",
+            "isSelected": false,
+            "price": 95,
+            "priceLabel": "$95",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "061",
+            "label": "Tease",
+            "imgSrc": "images/gift-catalog/tease-perfume.avif",
+            "isSelected": false,
+            "price": 45,
+            "priceLabel": "$45",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "071",
+            "label": "BabyDoll",
+            "imgSrc": "images/gift-catalog/babydoll.avif",
+            "isSelected": false,
+            "price": 150,
+            "priceLabel": "$150",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "081",
+            "label": "Fleece",
+            "imgSrc": "images/gift-catalog/warm_n_cozy_fleece_frag.jpeg",
+            "isSelected": false,
+            "price": 55,
+            "priceLabel": "$55",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "091",
+            "label": "Sleep",
+            "imgSrc": "images/gift-catalog/sleep_wear.avif",
+            "isSelected": false,
+            "price": 75,
+            "priceLabel": "$75",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "101",
+            "label": "VS&Co",
+            "imgSrc": "images/gift-catalog/tote_bag.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        },
+        {
+            "key": "111",
+            "label": "PINK",
+            "imgSrc": "images/gift-catalog/blue_bella.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        },
+        {
+            "key": "121",
+            "label": "AdoreMe",
+            "imgSrc": "images/gift-catalog/body_suit.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        },
+        {
+            "key": "131",
+            "label": "BlueBella",
+            "imgSrc": "images/gift-catalog/swim_suit.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        }
+    ],
+    "sleep": [
+        {
+            "key": "012",
+            "label": "Sleep",
+            "imgSrc": "images/gift-catalog/lingerie_gift_set.webp",
+            "isSelected": false,
+            "price": 100,
+            "priceLabel": "$100",
+            "priceRange": "100&Above"
+        },
+        {
+            "key": "022",
+            "label": "Sleep",
+            "imgSrc": "images/gift-catalog/pure_seduction_duo.jpeg",
+            "isSelected": false,
+            "price": 15,
+            "priceLabel": "$15",
+            "priceRange": "10-50"
+        },
+        {
+            "key": "032",
+            "label": "Red Velvet",
+            "imgSrc": "images/gift-catalog/red_velvet.avif",
+            "isSelected": false,
+            "price": 90,
+            "priceLabel": "$90",
+            "priceRange": "10-50"
+        },
+        {
+            "key": "042",
+            "label": "Mini Mist",
+            "imgSrc": "images/gift-catalog/merry_mini_mist.jpeg",
+            "isSelected": false,
+            "price": 50,
+            "priceLabel": "$50",
+            "priceRange": "10-50"
+        },
+        {
+            "key": "052",
+            "label": "Bombshell",
+            "imgSrc": "images/gift-catalog/delux_frag_trio.jpeg",
+            "isSelected": false,
+            "price": 95,
+            "priceLabel": "$95",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "062",
+            "label": "Tease",
+            "imgSrc": "images/gift-catalog/tease-perfume.avif",
+            "isSelected": false,
+            "price": 45,
+            "priceLabel": "$45",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "072",
+            "label": "BabyDoll",
+            "imgSrc": "images/gift-catalog/babydoll.avif",
+            "isSelected": false,
+            "price": 150,
+            "priceLabel": "$150",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "082",
+            "label": "Fleece",
+            "imgSrc": "images/gift-catalog/warm_n_cozy_fleece_frag.jpeg",
+            "isSelected": false,
+            "price": 55,
+            "priceLabel": "$55",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "092",
+            "label": "Sleep",
+            "imgSrc": "images/gift-catalog/sleep_wear.avif",
+            "isSelected": false,
+            "price": 75,
+            "priceLabel": "$75",
+            "priceRange": "50-100"
+        },
+        {
+            "key": "102",
+            "label": "VS&Co",
+            "imgSrc": "images/gift-catalog/tote_bag.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        },
+        {
+            "key": "112",
+            "label": "PINK",
+            "imgSrc": "images/gift-catalog/blue_bella.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        },
+        {
+            "key": "122",
+            "label": "AdoreMe",
+            "imgSrc": "images/gift-catalog/body_suit.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        },
+        {
+            "key": "132",
+            "label": "BlueBella",
+            "imgSrc": "images/gift-catalog/swim_suit.avif",
+            "isSelected": false,
+            "price": 120,
+            "priceLabel": "$120",
+            "priceRange": "100-Above"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+body {
+  font-family: 'Bebas Neue', sans-serif;
+  margin: 0px;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+a {
+  text-decoration: none;
+}

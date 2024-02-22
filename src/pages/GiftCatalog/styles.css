@@ -1,0 +1,44 @@
+.col {
+  margin-bottom: 20px;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-body {
+  padding: 10px 4px;
+}
+
+.price {
+  font-size: 14px;
+}
+
+.find_gift_btn  {
+  padding: 10px;
+  margin: 10px;
+  font-size: 30px;
+  background: pink;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cart-float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:90px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}

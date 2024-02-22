@@ -1,0 +1,23 @@
+.modal-dialog {
+  /* transition: all 300s ease-out; */
+  position: fixed;
+  margin: auto;
+  height: 100%;
+}
+.modal-content {
+  border-radius: 0;
+  border: none;
+  height: 100%;
+}
+
+.modal-dialog {
+  right: 0;
+}
+
+.modal-body {
+  overflow-x: scroll;
+}
+
+.img-height {
+  height: auto;
+}

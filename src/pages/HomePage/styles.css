@@ -1,0 +1,13 @@
+.img_banner {
+  height: auto;
+  width: 100%;
+}
+
+.btn_background {
+  background: black;
+  border-radius: 0px;
+  color: #f7d4db;
+  border: none;
+  margin-bottom: 10px;
+  font-size: 18px;
+}

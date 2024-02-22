@@ -1,0 +1,66 @@
+.gift-quiz {
+    color: white;
+
+    .sub-margin {
+        margin: 10px;
+    }
+
+    .text-align {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .fab-content,
+    .fab-label {
+        font-size: 25px;
+    }
+
+    .gift_questions {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .category-lover,
+    .gift-is-for {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        gap: 10%;
+        margin-bottom: 50px;
+        margin-top: 10px;
+
+        button {
+            background-color: white;
+        }
+    }
+
+    .image-card {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .i-want-to-spend {
+        margin-top: 10px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .find-your-gift{
+        text-align: center;
+    }
+    .gift_quiz_btn  {
+        padding: 10px;
+        margin: 10px;
+        font-size: 30px;
+        background: pink;
+        border-radius: 10px;
+        width: -webkit-fill-available;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+    .active {
+        border: 3px solid black;
+        box-shadow: 5px 6px white;
+    }
+}

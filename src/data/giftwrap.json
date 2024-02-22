@@ -1,0 +1,68 @@
+{
+    "wraps" : [
+        {
+            "key": "01",
+            "label": "VS Iconic",
+            "imgSrc": "images/giftbox/s-l1600.jpg",
+            "isSelected" : false,
+            "price" : 0,
+            "priceLabel" : "free"
+        },
+        {
+            "key": "02",
+            "label": "Love PINK",
+            "imgSrc": "images/giftbox/love-pink.jpeg",
+            "isSelected" : false,
+            "price" : 0,
+            "priceLabel" : "free"
+        },
+        {
+            "key": "03",
+            "label": "VS Globe",
+            "imgSrc": "images/giftbox/vs-round.jpeg",
+            "isSelected" : false,
+            "price" : 0,
+            "priceLabel" : "free"
+        },
+        {
+            "key": "04",
+            "label": "Luxury",
+            "imgSrc": "images/giftbox/vs-brown.jpeg",
+            "isSelected" : false,
+            "price" : 0,
+            "priceLabel" : "free"
+        },
+        {
+            "key": "05",
+            "label": "Sexy",
+            "imgSrc": "images/giftbox/vs-sexy.jpeg",
+            "isSelected" : false,
+            "price" : 0,
+            "priceLabel" : "free"
+        },
+        {
+            "key": "06",
+            "label": "Nostalgia",
+            "imgSrc": "images/giftbox/vs-strip.jpeg",
+            "isSelected" : false,
+            "price" : 0,
+            "priceLabel" : "free"
+        },
+        {
+            "key": "07",
+            "label": "VS Bag",
+            "imgSrc": "images/giftbox/vs-bag.jpeg",
+            "isSelected" : false,
+            "price" : 0,
+            "priceLabel" : "free"
+        },
+        {
+            "key": "08",
+            "label": "PINK",
+            "imgSrc": "images/giftbox/vs-pink.webp",
+            "isSelected" : false,
+            "price" : 0,
+            "priceLabel" : "free"
+        }
+    ]
+}
