@@ -16,6 +16,7 @@ import Quiz from "../components/Quiz";
 import Scheduler from "../pages/Scheduler";
 import GiftQuiz from "../pages/GiftQuiz";
 import Decision from "../components/Decision";
+import ThankYou from "../pages/ThankYou";
 
 const Routes = () => {
   const router = createBrowserRouter([
@@ -59,6 +60,10 @@ const Routes = () => {
     {
       path: "/decision",
       element: <Decision />,
+    },
+    {
+      path: "/thank-you",
+      element: <ThankYou />,
     },
   ]);
 

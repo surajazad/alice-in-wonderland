@@ -36,14 +36,9 @@ const SelectedCategory = ({ data }) => {
   const selectedProducts = useSelector(
     (state) => state.categoriesData.selectedProducts
   );
-
-  const getSelectedCategoryandProduct = (categoriesData) => {
-    return categoriesData;
-  }
   const [show, setShow] = useState(false);
   const [products, setProducts] = useState([]);
   const [category, setCategory] = useState("");
-  const [selectedList, setSelectedList] = useState(getSelectedCategoryandProduct(categoriesData));
 
   const handleClose = () => setShow(false);
 
@@ -103,7 +98,7 @@ const SelectedCategory = ({ data }) => {
       <div className="breadcrumbs">
         <Link to={`/categories`}>Back</Link>
       </div>
-      {selectedList?.map(
+      {categoriesData.map(
         (item, index) =>
           item.isSelected && (
             <div
@@ -114,7 +109,7 @@ const SelectedCategory = ({ data }) => {
               }}
             >
               <img src={item.imgSrc} alt={item.label} style={StyleImage} />
-              <div style={StyleLabel}>{`ADD A ${item.label}`}</div>
+              <div style={StyleLabel}>{item.label}</div>
             </div>
           )
       )}

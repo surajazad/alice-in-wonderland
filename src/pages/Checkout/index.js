@@ -158,12 +158,19 @@ const Checkout = ({ data }) => {
             <i class="fa-solid fa-xmark"></i>
           </div>
           <div className="payment-methods">
-            <button className="pay-now credit-card">
+          <Link to={`/thank-you`}>
+          <button className="pay-now credit-card">
               Pay With Saved Card Ending with *241
             </button>
+          </Link>
+            
             <div className="">OR Pay With</div>
+            <Link to={`/thank-you`}>
             <button className="pay-now paypal">PayPal</button>
+            </Link>
+            <Link to={`/thank-you`}>
             <button className="pay-now venmo">Venmo</button>
+            </Link>
           </div>
         </div>
       </div>

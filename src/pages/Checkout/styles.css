@@ -142,16 +142,19 @@
         .credit-card {
             background-color: pink;
             border-radius: 10px;
+            width: 100%;
         }
         .paypal {
             background-color: black;
             color: white;
             border-radius: 10px;
+            width: 100%;
         }
         .venmo {
             background-color: white;
             color : black;
             border-radius: 10px;
+            width: 100%;
         }
       }
 }
