@@ -40,7 +40,7 @@ const Scheduler = ({ data }) => {
   };
 
   return (
-    <div className="checkout">
+    <div className="scheduler">
       <div className="title">
         <h1>Schedule Your Basket Of Love</h1>
         <p></p>
@@ -49,21 +49,40 @@ const Scheduler = ({ data }) => {
         <Link to={`/gift`}>Back</Link>
       </div>
       <hr />
-      <Calender />
+      <h2>Select Delivery Date</h2>
+      <Calender /> &nbsp;&nbsp;<i class="fa-solid fa-bookmark"></i>
       <hr />
-      <div>Your Saved Events</div>
+      <h2>Your Saved Events</h2>
 
-      <div>
-        Emilly's Birthday <i class="fa-solid fa-bell"></i>
+      <div className="event-card">
+        <div className="event-name">Emily's Birthday</div>
+        <div className="event-icon"><i class="fa-solid fa-bell"></i></div>
+        <div className="event-select"><input type="checkbox" /></div>
       </div>
-      <div>
-        Emilly's Birthday <i class="fa-solid fa-circle-check"></i>
+      <div className="event-card">
+        <div className="event-name">Shopie's Birthday </div>
+        <div className="event-icon"><i class="fa-solid fa-circle-check"></i></div>
+        <div className="event-select"><input type="checkbox" /></div>
       </div>
-      <div>
-        Emilly's Birthday
-        <i class="fa-solid fa-circle-check"></i>
+      <div className="event-card">
+        <div className="event-name">Elina's Bachelorette</div>
+        <div className="event-icon"><i class="fa-solid fa-circle-check"></i></div>
+        <div className="event-select"><input type="checkbox" /></div>
       </div>
       <hr />
+
+      <h2>Your Saved Address</h2>
+
+      <div className="event-card">
+        <div className="event-name">165 East 5th Ave NY 1001</div> 
+        <div className="event-select"><input type="checkbox" /></div>
+      </div>
+      <div className="event-card">
+        <div className="event-name">118W 125th St NY 1005</div>
+        <div className="event-select"><input type="checkbox" /></div>
+      </div>
+      <hr />
+
       <div className=" sub-margin ">
         <div>Gift Options</div>
         <div>
@@ -118,12 +137,18 @@ const Scheduler = ({ data }) => {
             <i class="fa-solid fa-xmark"></i>
           </div>
           <div className="payment-methods">
-            <button className="pay-now credit-card">
-              Pay With Saved Card Ending with *241
-            </button>
+            <Link to={`/thank-you`}>
+              <button className="pay-now credit-card">
+                Pay With Saved Card Ending with *241
+              </button>
+            </Link>
             <div className="">OR Pay With</div>
-            <button className="pay-now paypal">PayPal</button>
-            <button className="pay-now venmo">Venmo</button>
+            <Link to={`/thank-you`}>
+              <button className="pay-now paypal">PayPal</button>
+            </Link>
+            <Link to={`/thank-you`}>
+              <button className="pay-now venmo">Venmo</button>
+            </Link>
           </div>
         </div>
       </div>
