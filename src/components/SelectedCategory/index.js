@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./styles.css";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
@@ -43,7 +43,6 @@ const SelectedCategory = ({ data }) => {
   const handleClose = () => setShow(false);
 
   const dispatch = useDispatch();
-  const navigate = useNavigate();
 
   const handleShow = (key) => {
     setCategory(key);
@@ -51,9 +50,6 @@ const SelectedCategory = ({ data }) => {
     setShow(true);
   };
   useEffect(() => {}, [show, products]);
-  useEffect(() => {
-    sessionStorage.setItem("isBundle", false);
-  }, []);
 
   const handleStackUpdate = (item) => {
     const modifiedProductsList = productsList[item.label.toLowerCase()].map(
@@ -113,12 +109,9 @@ const SelectedCategory = ({ data }) => {
             </div>
           )
       )}
-      <button
-        className="find_gift_btn"
-        onClick={() => navigate("/gift_wrap", { state: { key: "value" } })}
-      >
-        Next
-      </button>
+      <Link to={`/gift_wrap`}>
+        <button className="find_gift_btn">Next</button>
+      </Link>
 
       {/* Modal Start */}
       <Modal show={show} onHide={handleClose} animation={true} fullscreen>
@@ -139,7 +132,8 @@ const SelectedCategory = ({ data }) => {
                     <div className="card-body">
                       <span className="card-title">
                         <span>{item.label}</span>
-                        <span className="">{item.priceLabel}</span>
+                        {/* <span className="">Place heart Icon here
+                    </span> */}
                       </span>
                     </div>
                     <div

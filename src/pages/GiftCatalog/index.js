@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
@@ -9,6 +9,7 @@ const GiftCatalog = () => {
   const giftCatalogProducts = useSelector(
     (state) => state.categoriesData.giftCatalog
   );
+  console.log(giftCatalogProducts);
 
   const dispatch = useDispatch();
 
@@ -27,10 +28,6 @@ const GiftCatalog = () => {
     console.log(updatedData);
     dispatch(updatePreSelectedGiftCatalog(updatedData));
   };
-
-  useEffect(() => {
-    sessionStorage.setItem("isBundle", true);
-  }, []);
 
   return (
     <>
@@ -80,7 +77,7 @@ const GiftCatalog = () => {
       </div>
       <Link to={`/categories`}>
         <div className="d-grid">
-          <button className="find_gift_btn ">Want to be the stylist ?</button>
+          <button className="find_gift_btn ">Not Happy, Build Your Own Bundle</button>
         </div>
       </Link>
       <Link to={`/gift_wrap`} className="cart-float">

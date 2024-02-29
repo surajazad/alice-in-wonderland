@@ -13,10 +13,7 @@ import SelectedCategory from "../components/SelectedCategory";
 import GiftWrapPage from "../pages/GiftWrap";
 import Checkout from "../pages/Checkout";
 import Quiz from "../components/Quiz";
-import Scheduler from "../pages/Scheduler";
 import GiftQuiz from "../pages/GiftQuiz";
-import Decision from "../components/Decision";
-import ThankYou from "../pages/ThankYou";
 
 const Routes = () => {
   const router = createBrowserRouter([
@@ -51,20 +48,8 @@ const Routes = () => {
     },
     {
       path: "/gift_quiz",
-      element: <GiftQuiz />,
-    },
-    {
-      path: "/scheduler",
-      element: <Scheduler />,
-    },
-    {
-      path: "/decision",
-      element: <Decision />,
-    },
-    {
-      path: "/thank-you",
-      element: <ThankYou />,
-    },
+      element: <GiftQuiz/>
+    }
   ]);
 
   return <RouterProvider router={router} />;

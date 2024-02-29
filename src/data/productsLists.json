@@ -3,7 +3,7 @@
         {
             "key": "01",
             "label": "Bra",
-            "imgSrc": "images/productList/bra1.avif",
+            "imgSrc": "images/gift-catalog/lingerie_gift_set.webp",
             "isSelected": false,
             "price": 100,
             "priceLabel": "$100",
@@ -12,7 +12,7 @@
         {
             "key": "02",
             "label": "Bra",
-            "imgSrc": "images/productList/bra2.avif",
+            "imgSrc": "images/gift-catalog/pure_seduction_duo.jpeg",
             "isSelected": false,
             "price": 15,
             "priceLabel": "$15",
@@ -21,7 +21,7 @@
         {
             "key": "03",
             "label": "Red Velvet",
-            "imgSrc": "images/productList/bra3.avif",
+            "imgSrc": "images/gift-catalog/red_velvet.avif",
             "isSelected": false,
             "price": 90,
             "priceLabel": "$90",
@@ -30,7 +30,7 @@
         {
             "key": "04",
             "label": "Mini Mist",
-            "imgSrc": "images/productList/bra3.avif",
+            "imgSrc": "images/gift-catalog/merry_mini_mist.jpeg",
             "isSelected": false,
             "price": 50,
             "priceLabel": "$50",
@@ -39,7 +39,7 @@
         {
             "key": "05",
             "label": "Bombshell",
-            "imgSrc": "images/productList/bra3.avif",
+            "imgSrc": "images/gift-catalog/delux_frag_trio.jpeg",
             "isSelected": false,
             "price": 95,
             "priceLabel": "$95",
@@ -48,7 +48,7 @@
         {
             "key": "06",
             "label": "Tease",
-            "imgSrc": "images/productList/bra3.avif",
+            "imgSrc": "images/gift-catalog/tease-perfume.avif",
             "isSelected": false,
             "price": 45,
             "priceLabel": "$45",
@@ -57,7 +57,7 @@
         {
             "key": "07",
             "label": "BabyDoll",
-            "imgSrc": "images/productList/bra3.avif",
+            "imgSrc": "images/gift-catalog/babydoll.avif",
             "isSelected": false,
             "price": 150,
             "priceLabel": "$150",
@@ -241,7 +241,7 @@
         {
             "key": "0001",
             "label": "Beauty",
-            "imgSrc": "images/productList/beauty1.avif",
+            "imgSrc": "images/gift-catalog/lingerie_gift_set.webp",
             "isSelected": false,
             "price": 100,
             "priceLabel": "$100",
@@ -250,7 +250,7 @@
         {
             "key": "0002",
             "label": "Beauty",
-            "imgSrc": "images/productList/beauty2.avif",
+            "imgSrc": "images/gift-catalog/pure_seduction_duo.jpeg",
             "isSelected": false,
             "price": 15,
             "priceLabel": "$15",
@@ -259,7 +259,7 @@
         {
             "key": "0003",
             "label": "Red Velvet",
-            "imgSrc": "images/productList/beauty3.avif",
+            "imgSrc": "images/gift-catalog/red_velvet.avif",
             "isSelected": false,
             "price": 90,
             "priceLabel": "$90",
@@ -360,7 +360,7 @@
         {
             "key": "00001",
             "label": "Accessory",
-            "imgSrc": "images/productList/acc1.avif",
+            "imgSrc": "images/gift-catalog/lingerie_gift_set.webp",
             "isSelected": false,
             "price": 100,
             "priceLabel": "$100",
@@ -369,7 +369,7 @@
         {
             "key": "00002",
             "label": "Accessory",
-            "imgSrc": "images/productList/acc2.avif",
+            "imgSrc": "images/gift-catalog/pure_seduction_duo.jpeg",
             "isSelected": false,
             "price": 15,
             "priceLabel": "$15",
@@ -378,7 +378,7 @@
         {
             "key": "00003",
             "label": "Red Velvet",
-            "imgSrc": "images/productList/acc3.avif",
+            "imgSrc": "images/gift-catalog/red_velvet.avif",
             "isSelected": false,
             "price": 90,
             "priceLabel": "$90",
@@ -387,7 +387,7 @@
         {
             "key": "00004",
             "label": "Mini Mist",
-            "imgSrc": "images/productList/acc3.avif",
+            "imgSrc": "images/gift-catalog/merry_mini_mist.jpeg",
             "isSelected": false,
             "price": 50,
             "priceLabel": "$50",
@@ -396,7 +396,7 @@
         {
             "key": "00005",
             "label": "Bombshell",
-            "imgSrc": "images/productList/acc3.avif",
+            "imgSrc": "images/gift-catalog/delux_frag_trio.jpeg",
             "isSelected": false,
             "price": 95,
             "priceLabel": "$95",
@@ -405,7 +405,7 @@
         {
             "key": "00006",
             "label": "Tease",
-            "imgSrc": "images/productList/acc3.avif",
+            "imgSrc": "images/gift-catalog/tease-perfume.avif",
             "isSelected": false,
             "price": 45,
             "priceLabel": "$45",
@@ -414,7 +414,7 @@
         {
             "key": "00007",
             "label": "BabyDoll",
-            "imgSrc": "images/productList/acc3.avif",
+            "imgSrc": "images/gift-catalog/babydoll.avif",
             "isSelected": false,
             "price": 150,
             "priceLabel": "$150",
