@@ -1,66 +1,82 @@
 .gift-quiz {
-    color: white;
+  color: white;
+  background-size: contain;
 
-    .sub-margin {
-        margin: 10px;
+  .sub-margin {
+    margin: 10px;
+  }
+
+  .text-align {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .fab-content,
+  .fab-label {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .gift_questions {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .category-lover,
+  .gift-is-for {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 10%;
+    margin-bottom: 40px;
+    margin-top: 10px;
+
+    button {
+      background-color: white;
+      border: 2px solid pink;
+      border-radius: 4px;
     }
+  }
 
-    .text-align {
-        text-align: center;
-        font-size: 32px;
+  .image-card {
+    height: 185px;
+    width: 100%;
+    object-fit: scale-down;
+    border-radius: 4px;
+  }
+
+  .i-want-to-spend {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+
+    button {
+      border: 2px solid pink;
+      border-radius: 4px;
     }
+  }
 
-    .fab-content,
-    .fab-label {
-        font-size: 25px;
-    }
+  .find-your-gift {
+    text-align: center;
+  }
+  .gift_quiz_btn {
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    background: pink;
+    border-radius: 10px;
+    width: -webkit-fill-available;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 
-    .gift_questions {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .category-lover,
-    .gift-is-for {
-        display: grid;
-        grid-template-columns: 45% 45%;
-        gap: 10%;
-        margin-bottom: 50px;
-        margin-top: 10px;
-
-        button {
-            background-color: white;
-        }
-    }
+  .active {
+    border: 3px solid white;
+    border-radius: 4px;
+    box-shadow: rgb(20, 21, 21) 3px 3px 6px 0px inset,
+      rgba(28, 7, 7, 0.5) -3px -3px 6px 1px inset;
 
     .image-card {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
+      padding: 8px;
     }
-
-    .i-want-to-spend {
-        margin-top: 10px;
-        margin-bottom: 40px;
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .find-your-gift{
-        text-align: center;
-    }
-    .gift_quiz_btn  {
-        padding: 10px;
-        margin: 10px;
-        font-size: 30px;
-        background: pink;
-        border-radius: 10px;
-        width: -webkit-fill-available;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      }
-
-    .active {
-        border: 3px solid black;
-        box-shadow: 5px 6px white;
-    }
+  }
 }

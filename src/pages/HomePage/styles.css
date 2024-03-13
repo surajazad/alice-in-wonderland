@@ -3,11 +3,17 @@
   width: 100%;
 }
 
+.btn_container {
+  display: flex;
+  justify-content: center;
+}
 .btn_background {
   background: black;
-  border-radius: 0px;
   color: #f7d4db;
   border: none;
-  margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 28px;
+  position: relative;
+  bottom: 70px;
+  width: 221px;
+  border-radius: 4px;
 }

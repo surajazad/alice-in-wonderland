@@ -56,7 +56,7 @@ const Decision = () => {
           <Link to={`/gift_quiz`}>
             <div className="d-grid">
               <button className="btn" onClick={handleNext}>
-                Surprise Me <i class="fa-regular fa-face-smile-wink"></i>
+                Instant picks <i class="fa-regular fa-face-smile-wink"></i>
               </button>
             </div>
           </Link>

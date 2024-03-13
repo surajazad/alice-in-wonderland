@@ -16,6 +16,7 @@ export const counterSlice = createSlice({
     giftCatalog: giftCatalogProducts.products,
     productsStacks: productsList,
     selectedProducts: [],
+    defaultCart: giftCatalogProducts.products,
   },
 
   reducers: {

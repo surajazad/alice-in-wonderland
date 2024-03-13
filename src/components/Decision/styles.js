@@ -16,12 +16,13 @@ export const MainContainer = styled.div`
   }
 
   .btn{
-    padding: 30px;
+    padding: 20px;
     width: 100%;
     margin-bottom: 10px;
     font-size: 30px;
     color: #fff;
     background-color: black;
+    opacity: 0.8;
   }
 `;
 
