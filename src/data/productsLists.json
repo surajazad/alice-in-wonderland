@@ -360,7 +360,7 @@
         {
             "key": "00001",
             "label": "Accessory",
-            "imgSrc": "images/productList/acc1.avif",
+            "imgSrc": "images/gift-catalog/tote_bag.avif",
             "isSelected": false,
             "price": 100,
             "priceLabel": "$100",

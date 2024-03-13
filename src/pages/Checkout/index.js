@@ -11,8 +11,8 @@ const Checkout = ({ data }) => {
   const defaultProducts = [
     {
       key: "01",
-      label: "Lingerie",
-      imgSrc: "images/gift-catalog/lingerie_gift_set.webp",
+      label: "Bra",
+      imgSrc: "images/productList/bra1.avif",
       isSelected: true,
       price: 100,
       priceLabel: "$100",
@@ -20,8 +20,8 @@ const Checkout = ({ data }) => {
     },
     {
       key: "02",
-      label: "Mists",
-      imgSrc: "images/gift-catalog/pure_seduction_duo.jpeg",
+      label: "Fragrance",
+      imgSrc: "images/productList/beauty1.avif",
       isSelected: true,
       price: 15,
       priceLabel: "$15",
@@ -29,8 +29,8 @@ const Checkout = ({ data }) => {
     },
     {
       key: "03",
-      label: "Red Velvet",
-      imgSrc: "images/gift-catalog/red_velvet.avif",
+      label: "Bag",
+      imgSrc: "images/gift-catalog/tote_bag.avif",
       isSelected: true,
       price: 90,
       priceLabel: "$90",
@@ -39,7 +39,8 @@ const Checkout = ({ data }) => {
   ];
   let isBundle = sessionStorage.getItem("isBundle");
 
-  const cartItems = isBundle === 'true' ? globalState.giftCatalog : defaultProducts;
+  const cartItems =
+    isBundle === "true" ? globalState.giftCatalog : defaultProducts;
   // change here
   const preSelectedGifts = cartItems.filter((item) => {
     return item.isSelected === true;
