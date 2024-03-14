@@ -95,7 +95,8 @@
     flex-direction: column;
   }
 
-  .hidden {}
+  .hidden {
+  }
 
   .pay-now {
     padding: 10px;
@@ -104,7 +105,7 @@
 
   .bottom-sheet-wrapper {
     .backdrop {
-      position: absolute;
+      position: fixed;
       top: 0;
       left: 0;
       width: 100%;
@@ -119,7 +120,7 @@
       background: #fff;
       width: 97%;
       min-height: 200px;
-      position: absolute;
+      position: fixed;
       z-index: 2;
       border-radius: 15px;
       transition: all 0.2s ease-in-out;

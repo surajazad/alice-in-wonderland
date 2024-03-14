@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
 import { updateSelectedGiftWrap } from "../../../src/redux/gift";
@@ -29,6 +29,10 @@ const GiftWrapPage = ({ data }) => {
 
     dispatch(updateSelectedGiftWrap(updatedData));
   };
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
 
   return (
     <>

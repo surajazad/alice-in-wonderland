@@ -53,36 +53,46 @@ const Scheduler = ({ data }) => {
       <Calender /> &nbsp;&nbsp;<i class="fa-solid fa-bookmark"></i>
       <hr />
       <h2>Your Saved Events</h2>
-
       <div className="event-card">
         <div className="event-name">Emily's Birthday</div>
-        <div className="event-icon"><i class="fa-solid fa-bell"></i></div>
-        <div className="event-select"><input type="checkbox" /></div>
+        {/* <div className="event-icon">
+          <i class="fa-solid fa-bell"></i>
+        </div> */}
+        <div className="event-select">
+          <input type="checkbox" />
+        </div>
       </div>
       <div className="event-card">
         <div className="event-name">Shopie's Birthday </div>
-        <div className="event-icon"><i class="fa-solid fa-circle-check"></i></div>
-        <div className="event-select"><input type="checkbox" /></div>
+        {/* <div className="event-icon"><i class="fa-solid fa-circle-check"></i></div> */}
+        <div className="event-select">
+          <input type="checkbox" />
+        </div>
       </div>
       <div className="event-card">
         <div className="event-name">Elina's Bachelorette</div>
-        <div className="event-icon"><i class="fa-solid fa-circle-check"></i></div>
-        <div className="event-select"><input type="checkbox" /></div>
+        {/* <div className="event-icon">
+          <i class="fa-solid fa-circle-check"></i>
+        </div> */}
+        <div className="event-select">
+          <input type="checkbox" />
+        </div>
       </div>
       <hr />
-
       <h2>Your Saved Address</h2>
-
       <div className="event-card">
-        <div className="event-name">165 East 5th Ave NY 1001</div> 
-        <div className="event-select"><input type="checkbox" /></div>
+        <div className="event-name">165 East 5th Ave NY 1001</div>
+        <div className="event-select">
+          <input type="checkbox" />
+        </div>
       </div>
       <div className="event-card">
         <div className="event-name">118W 125th St NY 1005</div>
-        <div className="event-select"><input type="checkbox" /></div>
+        <div className="event-select">
+          <input type="checkbox" />
+        </div>
       </div>
       <hr />
-
       <div className=" sub-margin ">
         <div>Gift Options</div>
         <div>

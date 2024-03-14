@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
 import { updateSelectedDataObj } from "../../../src/redux/gift";
@@ -32,9 +32,7 @@ const CollectionPage = ({ data }) => {
         <p>Select Categories that You want to Build Your basket with </p>
       </div>
       <div className="breadcrumbs">
-        <Link to={`/gift`}>
-          Back
-        </Link>
+        <Link to={`/gift`}>Back</Link>
       </div>
       <div className="container text-center">
         <div className="row row-cols-2 row-cols-sm-2 row-cols-md-4">
@@ -53,15 +51,21 @@ const CollectionPage = ({ data }) => {
                     </span> */}
                   </span>
                 </div>
-                <div className="card-footer" onClick={() => { handleClick(item.key) }}>
-                  {item.isSelected ?
+                <div
+                  className="card-footer"
+                  onClick={() => {
+                    handleClick(item.key);
+                  }}
+                >
+                  {item.isSelected ? (
                     <img
                       src="images/utility/check-mark.png"
                       alt="selected"
                       className="select-icon"
-                    /> :
+                    />
+                  ) : (
                     <small className="text-body-secondary">ADD</small>
-                  }
+                  )}
                 </div>
               </div>
             </div>
@@ -69,7 +73,9 @@ const CollectionPage = ({ data }) => {
         </div>
       </div>
       <Link to={`/selected_categories`}>
-        <button className="find_gift_btn">Proceed to Product Selection <i class="fa fa-shopping-cart"></i></button>
+        <button className="find_gift_btn">
+          Proceed to Product Selection <i class="fa fa-shopping-cart"></i>
+        </button>
       </Link>
     </>
   );

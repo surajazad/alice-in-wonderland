@@ -32,6 +32,10 @@ const GiftCatalog = () => {
     sessionStorage.setItem("isBundle", true);
   }, []);
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <>
       <div className="title">
